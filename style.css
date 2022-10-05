@@ -1,0 +1,79 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+.container {
+    width: 100%;
+    height: 100vh;
+    background: radial-gradient(circle, rgba(238,174,202,1) 0%, rgba(148,187,233,1) 100%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.card {
+    width: 100%;
+    max-width: 450px;
+    text-align: center;
+    color: #fff;
+    padding: 60px 45px;
+    border: 1px solid rgba(255,255,255,0.3);
+    background: rbga(255,255,255,0.2);
+    border-radius: 16px;
+    box-shadow: 0 4px 30px rgba(0,0,0,0.1);
+    backdrop-filter: blur(50%);
+}
+
+.card img {
+    width: 150px;
+    height: 150px;
+    border-radius: 60%;
+}
+
+button {
+    width: 80px;
+    height: 30px;
+    margin-top: 20px;
+    cursor: pointer;
+    background: #0c6fe3;
+    border: none;
+    border-radius: 20px;
+    color: #fff;
+    transition: 0.3s;
+}
+
+button:hover{
+    width: 100px;
+    background: #fff;
+    color: #333;
+}
+
+
+.links {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.links ul {
+    list-style: none;
+}
+
+.links ul li {
+    display: inline-block;
+    padding-left: 10px;
+}
+
+.links ul li a {
+    color: #fff;
+}
+
+.links ul li a:hover{
+    color: #0c6fe3;
+}
